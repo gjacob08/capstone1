@@ -1,0 +1,77 @@
+.logo{
+    max-width: 200px;
+}
+
+.btn-info{
+  background-color: #2980b9;
+}
+
+.navbar{
+    background: #333333 !important;
+    color: #ffffff;
+}   
+
+.tv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  
+    width: 100%;
+    height: 100%;
+  
+    overflow: hidden;
+  }
+
+  .screen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+
+    margin: auto;
+
+    opacity: 0;
+    transition: opacity .5s;
+  }
+
+  .active {
+    opacity: 1;
+  }
+  
+/* .carousel-caption{
+  font-weight: bold !important;
+  vertical-align: middle;
+  color: rgb(253, 142, 24);
+} */  
+/* 
+.section{
+  padding: 32px 0px 0px;
+} */
+
+.form-control, .is-focused .form-control{
+  background-image: linear-gradient(to top, #00bcd4 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px)
+}
+
+/*BACK TO TOP*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #333; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
